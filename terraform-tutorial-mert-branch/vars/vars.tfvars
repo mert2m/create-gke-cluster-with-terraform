@@ -1,6 +1,6 @@
-project_id             = "ace-apigeehybrid-poc"
+project_id             = "mert-poc"
 region                 = "europe-west4"  
-cluster_name           = "gke-mert-clust"
+cluster_name           = "gke-mert"
 vpc_name               = "mert-vpc"
 subnet_name            = "subnet-mert"
 gke_node_cidr          = "10.0.0.0/24"
