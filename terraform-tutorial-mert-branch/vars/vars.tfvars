@@ -1,6 +1,6 @@
-project_id             = "mert-poc"
+project_id             = "projectid"
 region                 = "europe-west4"  
-cluster_name           = "gke-mert"
+cluster_name           = "cluster-name"
 vpc_name               = "mert-vpc"
 subnet_name            = "subnet-mert"
 gke_node_cidr          = "10.0.0.0/24"
@@ -9,7 +9,7 @@ svc_cidr               = "10.255.128.0/18"
 gke_master_cidr        = "10.255.255.224/28"
 nat_router_name        = "router-mert"
 nat_name               = "router-config"
-global_ip_name         = "my-global-ip-mert"
+global_ip_name         = "global-ip-name"
 master_ipv4_cidr_block = "10.255.255.224/28"
 /* gke cluster private public endpoint olmayacak
 nat global ip ver 
